@@ -1,0 +1,9 @@
+n = input()
+if n.count('f') == 1:
+    print('-1')
+elif n.count('f') == 0:
+    print('-2')
+else:
+    n = n.replace('f', 'I', 1)
+    x = n.find('f')
+    print(x)
