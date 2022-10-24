@@ -1,0 +1,4 @@
+n = input()
+x1 = n.find('h')
+x2 = n.rfind('h')
+print(n[:x1], n[x2:x1:-1], n[x2:], sep='')
