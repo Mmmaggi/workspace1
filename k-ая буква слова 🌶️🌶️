@@ -1,0 +1,10 @@
+n = int(input())
+summ = []
+for i in range(n):
+    x = input()
+    summ.append(x)
+k = int(input())
+for i1 in range(n):
+    if len(summ[i1]) > k-1:
+        s = list(summ[i1])
+        print(s[k-1], end='')
