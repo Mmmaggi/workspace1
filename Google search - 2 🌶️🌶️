@@ -1,0 +1,16 @@
+n = int(input())
+x = []
+y = []
+for _ in range(n):
+     x.append(input())
+n = int(input())
+for _ in range(n):
+     y.append(input())
+for i in x:
+     flag = True
+     for i1 in y:
+          if i1.lower() not in i.lower():
+               flag = False
+               break
+     if flag == True:
+          print(i)
